@@ -8,7 +8,10 @@ int main( ) {
 	//변수 선언 부분 
 	int num[3];
 	int check[3];
-	char main_msg[] = "세 수를 입력하세요 (공백으로 구분) : ";
+//	char main_msg[] = "세 수를 입력하세요 (공백으로 구분) : ";
+	char *main_msg = "세 수를 입력하세요 (공백으로 구분) : ";
+	char *main_msg2 = "세 수를 입력하세요 (공백으로 구분) : ";
+	
 	char strike_msg[] = "스트라이크";
 	char ball_msg[] = "볼";
 	char out_msg[] = "아웃";

@@ -110,9 +110,7 @@ int main( ) {
 			out_check = 0;
 			for(int r = 0; r<3; r++)
 				num[r] = 0;
-			time_check ++;
-			continue;
-			
+			time_check ++;			
 		}
 	
 	}
